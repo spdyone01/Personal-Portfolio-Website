@@ -1,0 +1,32 @@
+.projects {
+    height: 85%;
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: 3fr repeat(4, 1fr);
+    place-items: center;
+    clear: both;
+    text-align: center;
+}
+
+.projects h1 {
+    grid-column: 6/9;
+    grid-row: 1/2;
+}
+
+.app {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(100, 100, 100, 0.4);
+}
+
+.project-card-container {
+    grid-column: 2/13;
+    grid-row: 2/5;
+    transition: .4s;
+}
+
+.project-card-container:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}

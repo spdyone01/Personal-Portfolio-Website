@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trevor Widdison's Portfolio Website</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700&family=Crete+Round&display=swap" rel="stylesheet"> 
+
+    <link href="/src/images/favicon_io/favicon-32x32.png" type="image/png" rel="icon">
+    <link href="/styles/styles.css" rel="stylesheet">
+    <link href="/styles/project_styles.css" rel="stylesheet">
+</head>
+
+
+<body id="portfolio_page">
+
+    <div class="page-wrapper">
+        <header class="nav-bar">
+            <img class="logo" alt="" src="/src/images/profile_pic.png">
+
+            <div class="title">
+                <h1><span>Trevor </span><span>Widdison</span></h1>
+                <h4>Web Developer</h4>
+            </div>
+
+            <nav class="nav-links">
+                <ul id="nav-links-list" class="nav-links-list">
+                        <li id="projects-tab" class="nav-li nav-li-4"><a href="/projects.html" class="projects-button nav-a">Projects</a>
+                        <li id="contact-tab" class="nav-li nav-li-3"><a href="/contact.html" class="contact-button nav-a">Contact</a>
+                        <li id="about-tab" class="nav-li nav-li-2"><a href="/about.html" class="about-button nav-a">About</a>
+                        <li id="home-tab" class="nav-li nav-li-1"><a href="/index.html" class="home-button nav-a">Home</a>
+                </ul>
+                <div class="burger" onclick="toggleNav()">
+                    <div class="burger-top toggle-burger"></div>
+                    <div class="burger-mid toggle-burger"></div>
+                    <div class="burger-bot toggle-burger"></div>        
+                </div>
+            </nav>
+
+            
+        </header>
+
+        <div class="projects">
+           
+            <h1>Projects</h1>
+            <div class="project-card-container">
+                <div id="hangman-app-card" class="app-1 app">
+                    Hangman App
+                </div>
+                <!-- <div class="app-2 app">
+                    Library App
+                </div> -->
+                <!-- <div class="app-3 app">
+                    Workout App
+                </div> -->
+            </div>
+            
+        </div>
+
+    </div>
+    
+</body>
+
+<script src="/src/scripts/app.js"></script>
+</html>
